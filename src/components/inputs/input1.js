@@ -4,7 +4,7 @@ class Input1 extends Component {
     render() { 
         return (
         <div className="inputsd">
-            <p>Hello Shade</p>
+            <p>elcome Shade</p>
             <div className="enter">
             <p>Enter Task: </p>
             <input onChange={this.props.taskchange} value={this.props.value.task}></input>
