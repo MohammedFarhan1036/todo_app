@@ -1,7 +1,7 @@
 
 
 .inputsd{
-  width:400px;
+  width:100%;
   border:3px solid black ;
   height:175px;
   border-radius: 10px;
@@ -45,6 +45,7 @@
 }
 .app{
   background-color: black;
+  padding:7px;
   width:400px;
 }
 .enter{
