@@ -4,7 +4,7 @@ class Input2 extends Component {
     render() { 
         return (
         <div className="inputsd">
-            <p>Hello John</p>
+            <p>Hello {this.props.value.name}</p>
             <div className="enter">
                 <p>Enter Date : </p>
                 <input type="date" onChange={this.props.datechange} placeholder='Enter Date'></input>

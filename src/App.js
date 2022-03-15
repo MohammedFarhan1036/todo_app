@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Inputsd from './components/input';
 import 'bootstrap/dist/css/bootstrap.css'
+import Main from './main';
 
 function App() {
   return (
     <div className="app">
-      <Inputsd/>
+      <Main/>
     </div>
 
   );

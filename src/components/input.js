@@ -7,7 +7,8 @@ class Inputsd extends Component {
     state = { 
         task:"",
         count:1,
-        date:""
+        date:"",
+        name:this.props.state.name
      } 
      onclick=(c)=>{
          console.log(c)
@@ -29,8 +30,8 @@ class Inputsd extends Component {
      render=()=>{
         switch(this.state.count){
             case 1:return(<Input1 onclick={this.onclick} value={this.state} taskchange={this.ontaskchange}/>)
-            case 2:return(<Input2  onclick={this.onclick} datechange={this.ondatechange}/>)
-            case 3:return(<Input3 count={this.state.count}/>)
+            case 2:return(<Input2  onclick={this.onclick}  value={this.state} datechange={this.ondatechange}/>)
+            case 3:return(<Input3 value={this.state} />)
         }
     }
     

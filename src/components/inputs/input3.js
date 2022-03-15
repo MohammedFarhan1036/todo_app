@@ -3,11 +3,9 @@ class Input3 extends Component {
     state = {  } 
     render()
     { 
-    console.log(this.props.count)
-
         return (
         <div className="inputsd">
-            <p>Hello </p>
+            <p>Hello {this.props.value.name} </p>
         </div>
         );
     }
