@@ -11,7 +11,7 @@ class Input2 extends Component {
             </div>
             <div className="bt">
                 <button onClick={()=>this.props.onclick(1)}className="btn btn-primary btn-sm butt">Previous</button>
-                <button className="btn btn-primary btn-sm butt">Next</button>
+                <button  onClick={()=>this.props.onclick(3)} className="btn btn-primary btn-sm butt">Next</button>
             </div>
         </div>
         );

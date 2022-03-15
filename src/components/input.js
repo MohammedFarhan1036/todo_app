@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Input1 from './inputs/input1'
 import Input2 from './inputs/input2'
+import Input3 from './inputs/input3'
+
 class Inputsd extends Component {
     state = { 
         task:"",
@@ -8,9 +10,10 @@ class Inputsd extends Component {
         date:""
      } 
      onclick=(c)=>{
-         console.log("clicked")
+         console.log(c)
+         console.log(this.state.count);
          this.setState({count:c})
-         console.log(this.state);
+         console.log(this.state.count);
          this.render()
      }
      ontaskchange=(e)=>{
@@ -27,6 +30,7 @@ class Inputsd extends Component {
         switch(this.state.count){
             case 1:return(<Input1 onclick={this.onclick} value={this.state} taskchange={this.ontaskchange}/>)
             case 2:return(<Input2  onclick={this.onclick} datechange={this.ondatechange}/>)
+            case 3:return(<Input3 count={this.state.count}/>)
         }
     }
     
