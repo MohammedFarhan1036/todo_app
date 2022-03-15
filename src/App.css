@@ -7,7 +7,10 @@
   border:3px solid white ;
   height:175px;
   border-radius: 10px;
-  background-image: linear-gradient(to right,purple,blue,pink);
+  background-image: url("../public/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  /* background-image: linear-gradient(to right,purple,blue,pink); */
   color:rgb(0, 0, 0);
   padding:10px;
 }
@@ -51,6 +54,7 @@
   /* background-color: aqua; */
   border:3px solid white;
   height:100vh;
+  position: sticky;
   padding:5px;
   margin-top: 5px;
   border-radius: 10px;
@@ -68,7 +72,11 @@
   background-color: black;
   padding:5px;
   width:412px;
-  min-height:100vh
+  height:100vh;
+  overflow-y:hidden;
+  display: flex;
+  flex-direction: column;
+  
 }
 .enter{
   display:flex;
