@@ -4,9 +4,9 @@ class Input1 extends Component {
     render() { 
         return (
         <div className="inputsd">
-            <p>Hello Farhan</p>
+            <p>Hello Shade</p>
             <div className="enter">
-            <p>Enter Task : </p>
+            <p>Enter Task: </p>
             <input onChange={this.props.taskchange} value={this.props.value.task}></input>
             </div>
             <button onClick={()=>this.props.onclick(2)} className='btn btn-primary btn-sm butt'>Next</button>
