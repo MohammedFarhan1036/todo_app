@@ -2,7 +2,7 @@
 
 .inputsd{
   width:100%;
-  border:3px solid black ;
+  border:3px solid white ;
   height:175px;
   border-radius: 10px;
   background-color: rgb(13, 13, 63);
@@ -27,7 +27,7 @@
 }
  .inputsd p{
   text-align: end;
-  /* border:2px solid red; */
+  /* border:2px solid white; */
   margin-right: 5px;
   font-size: 25px;
   margin-bottom: 0px;
@@ -45,12 +45,12 @@
 }
 .app{
   background-color: black;
-  padding:7px;
+  padding:5px;
   width:400px;
 }
 .enter{
   display:flex;
-  /* border:2px solid red; */
+  /* border:2px solid white; */
   height:70px;
   justify-content: center;
   align-items: center;
