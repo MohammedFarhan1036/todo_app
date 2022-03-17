@@ -19,7 +19,7 @@ class Register extends Component {
             <p>ENTER PASSwORD: </p>
             <input type="text "  class="input-group-text input1" name="full_name" placeholder="ENTER PASSwORD"/>
         </div>
-        <button type="button" value="submit" onClick={this.props.onclick}class="btn btn-success m">SUBMIT</button>
+        <button type="button" value="submit" class="btn btn-success m">SUBMIT</button>
 
 
         </div>
