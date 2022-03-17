@@ -7,7 +7,9 @@ class Main extends Component {
     state = { name:"Arena",
                 count:2
 }
-
+onroutechange=(e)=>{
+    this.setState({count:e})
+}
 renderthis=()=>{
     switch(this.state.count){
         case 1:return(<React.Fragment>
@@ -17,7 +19,7 @@ renderthis=()=>{
             </div>
             </React.Fragment>
          )
-         case 2:return <Register />
+         case 2:return <Register onroutechange={this.onroutechange}/>
     }
 
 }

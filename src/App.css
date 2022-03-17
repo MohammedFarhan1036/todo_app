@@ -109,13 +109,13 @@ background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
 .mainform{
   min-height:100vh;
   width:100%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   position: relative;
   padding: 30px;
 }
 .form{
 background-color: rgba(0, 0, 0, 0.9);
-border:2px solod red;
+border:3px solid rgb(246, 0, 0);
 border-radius: 20px;
 position:absolute;
 top:50%;
@@ -149,10 +149,15 @@ transform: translate(-50%,-50%);
     margin-bottom:0px;
 
 }
+.btn1{
+  position: absolute;
+  right:5%;
+}
 .form .input1{
   color:red;
   outline:none;
   border:none;
+  border-bottom: 1px dotted white;
   width:70%;
 }
 .textfield input{
