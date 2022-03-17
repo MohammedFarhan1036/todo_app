@@ -5,8 +5,11 @@ import Register from "./components/register.js"
 
 class Main extends Component {
     state = { name:"Arena",
-                count:2        
-} 
+                count:2
+}
+onclick=()=>{
+    this.setState({count:1})
+}
 renderthis=()=>{
     switch(this.state.count){
         case 1:return(<React.Fragment>
@@ -16,7 +19,7 @@ renderthis=()=>{
             </div>
             </React.Fragment>
          )
-         case 2:return <Register/>
+         case 2:return <Register onclick={this.onclick}/>
     }
 
 }

@@ -11,15 +11,15 @@ class Register extends Component {
             <input type="text "  class="input-group-text input1" name="full_name" placeholder="ENTER FULL NAME"/>
             </div>
          <div  class="textfield"> 
-            <p>ENTER FULL NAME: </p>
-            <input type="text "  class="input-group-text input1" name="full_name" placeholder="ENTER FULL NAME"/>
+            <p>ENTER EMAIL: </p>
+            <input type="email "  class="input-group-text input1" name="email" placeholder="ENTER EMAIL"/>
         </div>
         
         <div  class="textfield"> 
-            <p>ENTER FULL NAME: </p>
-            <input type="text "  class="input-group-text input1" name="full_name" placeholder="ENTER FULL NAME"/>
+            <p>ENTER PASSwORD: </p>
+            <input type="text "  class="input-group-text input1" name="full_name" placeholder="ENTER PASSwORD"/>
         </div>
-        <button type="button" value="submit" class="btn btn-success m">SUBMIT</button>
+        <button type="button" value="submit" onClick={this.props.onclick}class="btn btn-success m">SUBMIT</button>
 
 
         </div>
