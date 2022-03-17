@@ -4,6 +4,7 @@ class Register extends Component {
     render()
     { 
         return (
+        <div className="mainform">
         <div className="form">
              <div  class="textfield"> 
             <p>ENTER FULL NAME: </p>
@@ -21,6 +22,7 @@ class Register extends Component {
         <button type="button" value="submit" class="btn btn-success m">SUBMIT</button>
 
 
+        </div>
         </div>
         );
     }

@@ -82,7 +82,7 @@ background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
   overflow-y:hidden;
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
   
 }
 .enter{
@@ -103,14 +103,22 @@ background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
   font-weight: bold;
 
 }
+.mainform{
+  min-height:100vh;
+  width:100%;
+  background-color: aliceblue;
+  position: relative;
+  padding: 30px;
+}
 .form{
 background-color: rgba(0, 0, 0, 0.9);
-boder:2px solod red;
+border:2px solod red;
+border-radius: 20px;
 position:absolute;
 top:50%;
 left:50%;
 transform: translate(-50%,-50%);
-    width:100%;
+    width:90%;
     display: flex;
     height: auto;
     flex-direction: column;
@@ -120,13 +128,14 @@ transform: translate(-50%,-50%);
 .textfield{
   display:flex;
   background-color: rgba(0, 0, 0, 0.9);
-  border:2px solid red;
+  /* border:2px solid red; */
   border-radius: 30px;
   width:100%;
   justify-content: space-around;
   align-items: center;
   padding:10px;
-  margin-top: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .textfield p{
   
@@ -136,5 +145,13 @@ transform: translate(-50%,-50%);
     font-size: 15px;
     margin-bottom:0px;
 
+}
+.form .input1{
+  color:red;
+  outline:none;
+  border:none;
+}
+.textfield input{
+  background: none;
 }
 
