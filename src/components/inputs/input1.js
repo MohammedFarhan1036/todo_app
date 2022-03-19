@@ -4,6 +4,8 @@ class Input1 extends Component {
     render() { 
         return (
         <div className="inputsd">
+            <button onClick={()=>this.props.onrouteschange(3)} className='btn btn-primary btn-sm butt'>Sign Out</button>
+
             <p>Hello {this.props.value.name}</p>
             <div className="enter">
             <p>Enter Task: </p>
